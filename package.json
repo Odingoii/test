@@ -1,0 +1,19 @@
+{
+    "name": "whatsappbulk",
+    "version": "0.1.0",
+    "private": true,
+    "description": "WhatsApp bulk messaging app",
+    "author": "Aren't ready to die yet",
+    "main": "server.js",
+    "dependencies": {
+        "qrcode-terminal": "^0.12.0",
+        "whatsapp-web.js": "^1.26.0"
+    },
+    "scripts": {
+        "start": "node test.js",
+        "build": "npm install"
+    },
+    "engines": {
+        "node": ">=22.x"
+    }
+}
